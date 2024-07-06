@@ -1,14 +1,15 @@
 import React from 'react';
+// import ComicPage, { ComicProps } from "../components/ComicPage";
 
-
-import Comic from "..//components/Comic";
-import Bio from "..//components/Bio";
+import Bio from "../components/Bio";
+import Comic from "@/app/components/Comic";
 
 const Home = () => {
+
     return (
         <>
             <Bio></Bio>
-            <Comic></Comic>
+           <Comic></Comic>
         </>
     );
 };
